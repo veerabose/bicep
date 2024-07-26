@@ -13,9 +13,9 @@ resource ASP01 'Microsoft.Web/serverfarms@2023-12-01' = {
 resource appservice 'Microsoft.Web/sites@2023-12-01' = {
   name: 'webapp01-27july24'
   location: 'eastus'
-properties: {
-  ASP01Id: ASP01.id
-}
+  properties: {
+    serverFarmId: ASP01.id
+  }
 }
 
 // websetting
