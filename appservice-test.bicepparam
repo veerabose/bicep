@@ -4,7 +4,7 @@ param envname = 'test'
 
 param awesomeFearuteDisaplyName = 'Everythingpurpel'
 
-param awesomeFeatureEnabled = 'true'
+param awesomeFeatureEnabled = true
 
 param awesomeFeatureCount = 2
 
