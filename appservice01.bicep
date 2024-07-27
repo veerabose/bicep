@@ -5,7 +5,7 @@ param envname string
 param awesomeFeatureEnabled bool
 
 @description('Please make sure you do not increase the count to much!')
-@minValue((1))
+@minValue(1)
 @maxValue(5)
 param awesomeFeatureCount int
 
